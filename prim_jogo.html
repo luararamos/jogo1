@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Arrasta e solta</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+</head>
+
+<body>
+        
+    <div id="corpo" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <h3>Coloque o cosmos no aquário: </h3>
+        
+        
+        <div ondrop="drop(event)" ondragover="allowDrop(event)"class="interac">
+            <img  src="img/peixe_cosmo.png"  draggable="true" ondragstart="drag(event)" id="cosmos_prim_jogo" class="interac"> 
+        </div>
+
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)" class="interac">
+            <!-- <img src="img/aquario2.png" alt=""> -->
+        </div>
+
+        <div  ondrop="drop(event)" ondragover="allowDrop(event)" class="interac">
+
+        </div>
+
+        
+
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
